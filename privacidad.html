@@ -8,7 +8,7 @@ nav{font-size:.95rem;color:var(--soft);margin-bottom:1.5rem}footer{margin-top:3r
 <body><nav><a href="./">Intemperie</a> · <a href="privacidad.html">Privacidad</a> · <a href="soporte.html">Soporte</a></nav>
 <h1>Política de privacidad de Intemperie</h1>
 <p><strong>Fecha de efecto y última actualización:</strong> 17 de noviembre de 2026
-<strong>Versión de la app a la que se refiere:</strong> 0.1.0 y posteriores, mientras no se indique otra cosa.</p>
+<strong>Versión de la app a la que se refiere:</strong> 1.0.0 y posteriores, mientras no se indique otra cosa.</p>
 <h2>1. Quién es el responsable</h2>
 <p>El responsable de esta política es <strong>Borja Alventosa Julià</strong>, persona física (en adelante, &quot;el responsable&quot;), que edita la aplicación móvil <strong>Intemperie</strong> (en adelante, &quot;la app&quot;). Sus datos de identificación completos figuran en el <a href="https://borjeta.github.io/appIntemperie/aviso-legal.html">Aviso legal</a>.</p>
 <p>Contacto para cuestiones de privacidad: <strong><a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></strong>.
@@ -17,12 +17,67 @@ Esta política está publicada en: <strong><a href="https://borjeta.github.io/ap
 <ul>
 <li>La app <strong>no tiene cuentas de usuario</strong>, <strong>no tiene servidores propios</strong> y <strong>no incluye analítica propia</strong>.</li>
 <li><strong>La app muestra publicidad de Google AdMob</strong> (un tercero): banners en algunas pantallas y un anuncio opcional en vídeo (&quot;bonificado&quot;) para desbloquear guías. Para mostrarla, Google puede tratar tu dirección IP, el identificador de publicidad de tu dispositivo (si lo autorizas), datos de uso e interacción con los anuncios y datos de diagnóstico del dispositivo. Detalles en la sección 6.</li>
+<li><strong>Hay una compra única opcional, &quot;Quitar anuncios y desbloquear todo&quot; (Premium)</strong>, sin suscripción. <strong>Apple</strong> procesa el pago (la app no ve tus datos de pago) y <strong>RevenueCat</strong>, un tercero que actúa como <strong>encargado del tratamiento</strong> del responsable, valida y restaura la compra. Para ello trata un identificador anónimo de la app, tu historial de compras y datos técnicos del dispositivo. No se usa para seguimiento ni publicidad. Detalles en la sección 7.</li>
 <li><strong>Tú decides</strong>: en el primer arranque (según tu región) verás un formulario de consentimiento y, en iOS, la petición del sistema para permitir el &quot;seguimiento&quot;. Puedes cambiar tu elección en cualquier momento (sección 6.8). Si dices que no, los anuncios no se personalizan; y si tu elección impide mostrar anuncios, <strong>no pierdes el acceso a ninguna guía</strong> (sección 6.1).</li>
-<li><strong>Las guías de vida o muerte y la pantalla de emergencias (112) son siempre gratuitas</strong>, sin anuncio y sin conexión.</li>
-<li>Lo que creas y configuras en la app (puntos, rutas, contactos de emergencia, favoritos, guías desbloqueadas, ajustes...) <strong>se guarda solo en tu dispositivo</strong>. El responsable no lo recibe ni puede verlo, y <strong>no se entrega a Google</strong>.</li>
-<li>Además de Google, la app solo se comunica con Internet cuando <strong>tú</strong> lo pides o usas el mapa con conexión, y solo con dos servicios públicos: <strong>Overpass API (datos de OpenStreetMap)</strong> y <strong>OpenFreeMap (teselas y estilo del mapa)</strong>. Estos servicios reciben tu dirección IP y, según el caso, un área aproximada (sección 5). <strong>Tu ubicación aproximada sí puede llegar a esos terceros; no se garantiza que &quot;nada salga del dispositivo&quot;.</strong></li>
-<li>Puedes borrar todo desde <strong>Ajustes &gt; Datos &gt; Borrar todo</strong>, o desinstalando la app.</li>
+<li><strong>Las guías de vida o muerte, otras guías de seguridad y la pantalla de emergencias (112) son siempre gratuitas</strong>, sin anuncio y sin conexión. Si una guía bloqueada no logra mostrarte un anuncio dos veces seguidas, <strong>se desbloquea sin anuncio</strong> (sección 6.1).</li>
+<li>Lo que creas y configuras en la app (puntos, rutas, contactos de emergencia, favoritos, guías desbloqueadas, ajustes...) <strong>se guarda solo en tu dispositivo</strong>. El responsable no lo recibe ni puede verlo, y <strong>no se entrega a Google ni a RevenueCat</strong>.</li>
+<li>Además de Google y RevenueCat, la app solo se comunica con Internet cuando <strong>tú</strong> lo pides o usas el mapa con conexión, y solo con dos servicios públicos: <strong>Overpass API (datos de OpenStreetMap)</strong> y <strong>OpenFreeMap (teselas y estilo del mapa)</strong>. Estos servicios reciben tu dirección IP y, según el caso, un área aproximada (sección 5). <strong>Tu ubicación aproximada sí puede llegar a esos terceros; no se garantiza que &quot;nada salga del dispositivo&quot;.</strong></li>
+<li>Puedes borrar tus datos locales desde <strong>Ajustes &gt; Datos &gt; Borrar todo</strong>, o desinstalando la app. <strong>&quot;Borrar todo&quot; no borra la compra Premium</strong>: pertenece a tu Apple ID y se recupera con &quot;Restaurar compras&quot; (sección 7.5).</li>
 </ul>
+<h3>Quién recibe qué (resumen)</h3>
+<table>
+<thead>
+<tr>
+<th>Tercero</th>
+<th>Cuándo</th>
+<th>Qué recibe</th>
+<th>Función</th>
+<th>Sección</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Google (AdMob)</strong></td>
+<td>Al mostrar anuncios, tras tu consentimiento (si procede)</td>
+<td>IP, ubicación aproximada derivada de la IP, ID de publicidad (si lo autorizas), interacción con anuncios, datos del dispositivo</td>
+<td>Publicidad, medición, prevención del fraude</td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>Apple (App Store)</strong></td>
+<td>Al comprar o restaurar Premium</td>
+<td>Datos de pago y de tu Apple ID, que <strong>la app no ve</strong></td>
+<td>Cobrar la compra y gestionar reembolsos</td>
+<td>7</td>
+</tr>
+<tr>
+<td><strong>RevenueCat</strong> (encargado del tratamiento)</td>
+<td>Al abrir la app (para comprobar si eres Premium), al comprar y al restaurar</td>
+<td>ID anónimo de la app, historial de compras y recibos de StoreKit, IP, datos del dispositivo y de la app (versión, sistema, idioma)</td>
+<td>Validar y restaurar la compra</td>
+<td>7</td>
+</tr>
+<tr>
+<td><strong>Overpass API</strong></td>
+<td>Solo al pulsar &quot;Descargar datos de la zona&quot;</td>
+<td>Centro de zona redondeado (~5 km), radio de consulta, IP</td>
+<td>Recursos de OpenStreetMap</td>
+<td>5.1</td>
+</tr>
+<tr>
+<td><strong>OpenFreeMap</strong></td>
+<td>Al descargar zonas y al ver el mapa con conexión</td>
+<td>Peticiones de teselas (área vista o descargada), IP</td>
+<td>Mapa</td>
+<td>5.2</td>
+</tr>
+<tr>
+<td><strong>Nadie más</strong></td>
+<td>-</td>
+<td>Puntos, rutas, contactos, notas médicas, favoritos, desbloqueos, presión y ajustes <strong>no salen del dispositivo</strong></td>
+<td>-</td>
+<td>3</td>
+</tr>
+</tbody></table>
 <h2>3. Datos que se guardan solo en tu dispositivo</h2>
 <p>Todos estos datos se almacenan localmente (base de datos SQLite de la app y archivos en la carpeta de datos de la app). <strong>No se envían al responsable ni a ningún servidor propio.</strong></p>
 <table>
@@ -45,8 +100,13 @@ Esta política está publicada en: <strong><a href="https://borjeta.github.io/ap
 </tr>
 <tr>
 <td>Guías desbloqueadas</td>
-<td>Qué guías has desbloqueado (viendo un anuncio bonificado o, si tu consentimiento impide mostrar anuncios, sin verlo). Solo los identificadores de las guías</td>
+<td>Qué guías has desbloqueado (viendo un anuncio bonificado o, sin verlo, si tu consentimiento impide mostrar anuncios o si el anuncio no ha podido mostrarse dos veces seguidas). Solo los identificadores de las guías</td>
 <td>Mantenerlas abiertas sin volver a ver anuncios</td>
+</tr>
+<tr>
+<td>Estado de Premium (caché)</td>
+<td>Si tienes la compra Premium activa y cuándo se comprobó por última vez; además, la información que el SDK de RevenueCat guarda en el dispositivo (su identificador anónimo y el último estado de compra conocido). <strong>&quot;Borrar todo&quot; no lo borra</strong> (sección 7.5)</td>
+<td>Que Premium funcione sin conexión una vez validada</td>
 </tr>
 <tr>
 <td>Ajustes</td>
@@ -109,14 +169,15 @@ Esta política está publicada en: <strong><a href="https://borjeta.github.io/ap
 <td>Recordar lo que elegiste y no volver a preguntarte en cada arranque</td>
 </tr>
 </tbody></table>
-<p>La app no guarda tu nombre real, correo, teléfono propio ni ningún identificador de usuario propio. El identificador de publicidad de tu dispositivo (si lo autorizas) lo usa el SDK de Google, no la app (sección 6).</p>
+<p>La app no guarda tu nombre real, correo, teléfono propio ni ningún identificador de usuario propio. El identificador de publicidad de tu dispositivo (si lo autorizas) lo usa el SDK de Google, no la app (sección 6). El identificador anónimo de la compra lo genera y usa el SDK de RevenueCat (sección 7).</p>
 <h3>Cómo borrar estos datos</h3>
 <ul>
 <li><strong>Ajustes &gt; Datos &gt; &quot;Borrar favoritos, listas y ajustes&quot;</strong>: borra favoritos, listas de comprobación y los ajustes de tema y tamaño de texto. No borra las guías desbloqueadas.</li>
-<li><strong>Ajustes &gt; Datos &gt; &quot;Borrar todo&quot;</strong>: borra además puntos, rutas, contactos de emergencia (con sus notas médicas), <strong>las guías desbloqueadas</strong> (volverán a estar bloqueadas, salvo las gratuitas), última posición, historial de presión, datos de recursos descargados, mapas offline, estilo del mapa y caché del mapa. Solo se conserva que has aceptado los avisos iniciales. No se puede deshacer.</li>
+<li><strong>Ajustes &gt; Datos &gt; &quot;Borrar todo&quot;</strong>: borra además puntos, rutas, contactos de emergencia (con sus notas médicas), <strong>las guías desbloqueadas</strong> (volverán a estar bloqueadas, salvo las gratuitas), última posición, historial de presión, datos de recursos descargados, mapas offline, estilo del mapa y caché del mapa. Solo se conserva que has aceptado los avisos iniciales. No se puede deshacer. <strong>No borra la compra Premium</strong>: la compra pertenece a tu Apple ID, no a los datos de la app, y se recupera con &quot;Restaurar compras&quot; (sección 7.5). Tampoco borra los datos que ya tengan Apple o RevenueCat (secciones 7.6 y 7.7).</li>
 <li><strong>Mapa &gt; Mapas offline</strong>: borra zonas de mapa una a una.</li>
-<li><strong>Desinstalar la app</strong>: elimina todos los datos locales de la app del dispositivo (ver también la sección 9 sobre copias de seguridad).</li>
+<li><strong>Desinstalar la app</strong>: elimina todos los datos locales de la app del dispositivo (ver también la sección 10 sobre copias de seguridad).</li>
 <li>Los datos que ya haya recibido Google al mostrar anuncios no están en tu dispositivo: ver sección 6.9.</li>
+<li>Los datos de la compra que ya tengan Apple y RevenueCat tampoco están en tu dispositivo: ver sección 7.</li>
 </ul>
 <h2>4. Permisos del dispositivo</h2>
 <p>La app solo pide los permisos que necesita y te explica el motivo al pedirlos. Puedes retirarlos en cualquier momento en los ajustes del sistema; sin ellos, las funciones relacionadas dejan de estar disponibles.</p>
@@ -156,7 +217,7 @@ Esta política está publicada en: <strong><a href="https://borjeta.github.io/ap
 </tbody></table>
 <p>La app <strong>no</strong> usa el micrófono, la agenda de contactos, las fotos ni el almacenamiento externo. Los sonidos (silbato, sirena) se reproducen, no se graban.</p>
 <h2>5. Comunicaciones con servicios de terceros para el mapa</h2>
-<p>La app no tiene backend propio. Para ofrecer el mapa y los recursos cercanos se conecta a servicios públicos de terceros. <strong>Estas comunicaciones las inicia el usuario</strong> (al pulsar un botón de descarga o al abrir el mapa visual con conexión). <strong>Sin conexión, la app funciona con los datos ya guardados y no envía nada a estos servicios.</strong> (La publicidad de Google tiene su propia sección, la 6.)</p>
+<p>La app no tiene backend propio. Para ofrecer el mapa y los recursos cercanos se conecta a servicios públicos de terceros. <strong>Estas comunicaciones las inicia el usuario</strong> (al pulsar un botón de descarga o al abrir el mapa visual con conexión). <strong>Sin conexión, la app funciona con los datos ya guardados y no envía nada a estos servicios.</strong> (La publicidad de Google tiene su propia sección, la 6, y las compras y RevenueCat, la 7.)</p>
 <p>En toda conexión de red, el servidor que la recibe ve necesariamente la <strong>dirección IP</strong> del dispositivo, como en cualquier petición de Internet. La app añade un <em>User-Agent</em> genérico (<code>Intemperie/0.1 (app de supervivencia offline; Android/iOS)</code>), que identifica la app y <strong>no contiene datos personales</strong>.</p>
 <h3>5.1. Overpass API (OpenStreetMap) — datos de recursos</h3>
 <ul>
@@ -181,10 +242,14 @@ Esta política está publicada en: <strong><a href="https://borjeta.github.io/ap
 <li><strong>Banner</strong> (anuncio de pancarta adaptable) en <strong>Inicio</strong>, en la <strong>lista de Guías</strong> y en <strong>Ajustes</strong>.</li>
 <li><strong>Anuncio bonificado</strong> (vídeo opcional): solo si <strong>tú</strong> pulsas &quot;Ver anuncio para desbloquear&quot; en una guía bloqueada. Tras verlo completo, la guía queda desbloqueada de forma permanente en tu móvil. La recompensa no es transferible ni canjeable por nada más.</li>
 <li><strong>Lo esencial siempre visible:</strong> aunque una guía esté bloqueada, su recuadro <strong>&quot;Lo esencial&quot;</strong> y su aviso médico (si lo tiene) se ven siempre, gratis y sin conexión; solo las secciones completas quedan tras el anuncio.</li>
-<li><strong>Si el consentimiento impide mostrar anuncios</strong> (lo has rechazado o retirado y, por tanto, la app no puede pedirlos), <strong>la guía se desbloquea sin ver ningún anuncio</strong>: no pierdes el acceso a ninguna guía por no autorizar la publicidad. Denegar el seguimiento entre apps (ATT) tampoco bloquea nada: verás anuncios no personalizados. Si lo que falla es la conexión o no hay anuncio disponible en ese momento, la guía sigue bloqueada hasta que puedas verlo.</li>
+<li><strong>Si el consentimiento impide mostrar anuncios</strong> (lo has rechazado o retirado y, por tanto, la app no puede pedirlos), <strong>la guía se desbloquea sin ver ningún anuncio</strong>: no pierdes el acceso a ninguna guía por no autorizar la publicidad. Denegar el seguimiento entre apps (ATT) tampoco bloquea nada: verás anuncios no personalizados.</li>
+<li><strong>Si el anuncio no se puede mostrar dos veces seguidas en una misma guía</strong> (porque no hay anuncio disponible, no hay red con el SDK de anuncios disponible, el anuncio da error al cargar o tarda demasiado), <strong>esa guía se desbloquea sin anuncio, de forma permanente y local, y la app te lo indica en pantalla</strong>. No cuenta como fallo cerrar el anuncio antes de tiempo. El contador de fallos se guarda solo en tu móvil y se pone a cero al ver un anuncio completo. No pierdes el acceso a una guía porque la publicidad falle.</li>
 <li><strong>No hay anuncios</strong> en Herramientas, en el Mapa, en la lectura de las guías ni en la pantalla de emergencias, y el banner se oculta en el modo luz roja.</li>
-<li><strong>Siempre gratis y sin anuncios:</strong> primeros auxilios (también los del entorno: hipotermia, golpe de calor, mordeduras), señales de rescate, escenarios, agua, fuego, refugio, kit de 72 horas y la pantalla de emergencias/112.</li>
+<li><strong>Con la compra Premium no hay anuncios:</strong> ni banners ni anuncios bonificados, y todas las guías están desbloqueadas (sección 7).</li>
+<li><strong>Siempre gratis y sin anuncios:</strong> primeros auxilios (también los del entorno: hipotermia, golpe de calor, mordeduras), señales de rescate, escenarios, agua, fuego, refugio, kit de 72 horas, clima y peligros naturales, plantas y setas peligrosas, mar y costa, y la pantalla de emergencias/112.</li>
 </ul>
+<p>Si la app ya sabe que eres Premium cuando arranca, <strong>no inicializa el SDK de anuncios ni te muestra el formulario de consentimiento ni la petición de &quot;Seguimiento&quot;</strong> (ver 6.7). Si compras Premium en una sesión en la que el SDK de anuncios ya estaba iniciado, simplemente dejan de mostrarse anuncios hasta que reinicies la app.</p>
+<p>Los datos de publicidad que Google ya hubiera recibido antes de comprar Premium (por ejemplo, anuncios vistos antes) no se borran con la compra: ver la sección 6.9.</p>
 <h3>6.2. Quién es el tercero</h3>
 <p>La publicidad la sirve <strong>Google</strong> mediante el SDK <strong>Google Mobile Ads (AdMob)</strong>. Google trata estos datos bajo sus propias condiciones y su política de privacidad: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> (según esa política, para usuarios del Espacio Económico Europeo o Suiza el responsable es Google Ireland Limited). Cómo usa Google la información de sitios o aplicaciones que usan sus servicios: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>.</p>
 <p>La app no usa otras redes de anuncios ni mediación de terceros.</p>
@@ -229,51 +294,112 @@ Esta política está publicada en: <strong><a href="https://borjeta.github.io/ap
 <li>Algunas funciones del SDK (medición, prevención del fraude, seguridad) pueden apoyarse en el interés legítimo de Google según su propia política.</li>
 </ul>
 <h3>6.7. Orden en el que se te pregunta</h3>
-<p>Al abrir la app: 1) el formulario de consentimiento de Google (si procede en tu región), 2) en iOS, la petición de &quot;Seguimiento&quot;, y 3) solo después, el SDK de anuncios se inicializa. <strong>Mientras no se resuelvan estos pasos no se piden anuncios.</strong> La app no te pide estos permisos para poder usarla.</p>
+<p>Al abrir la app: 1) el formulario de consentimiento de Google (si procede en tu región), 2) en iOS, la petición de &quot;Seguimiento&quot;, y 3) solo después, el SDK de anuncios se inicializa. <strong>Mientras no se resuelvan estos pasos no se piden anuncios.</strong> La app no te pide estos permisos para poder usarla. <strong>Si ya eres Premium</strong> (la app lo sabe por la última comprobación guardada en tu móvil), estos tres pasos no se ejecutan. Si Premium dejara de estar activo (por ejemplo, tras un reembolso), se ejecutarían entonces en este orden.</p>
 <h3>6.8. Cómo cambiar o retirar tu consentimiento</h3>
 <ul>
-<li><strong>En la app:</strong> <strong>Ajustes &gt; Anuncios &gt; &quot;Gestionar consentimiento de anuncios&quot;</strong>. Abre el formulario de opciones de privacidad de Google cuando tu región lo exige; si en tu zona no hay opciones que gestionar, la app te lo indica.</li>
-<li><strong>iOS:</strong> <strong>Ajustes del sistema &gt; Privacidad y seguridad &gt; Seguimiento</strong>, y desactiva Intemperie (también hay un acceso directo en Ajustes &gt; Anuncios &gt; &quot;Seguimiento entre apps&quot;).</li>
+<li><strong>En la app (si no tienes Premium, porque con Premium esta sección de Ajustes se oculta):</strong> <strong>Ajustes &gt; Anuncios &gt; &quot;Gestionar consentimiento de anuncios&quot;</strong>. Abre el formulario de opciones de privacidad de Google cuando tu región lo exige; si en tu zona no hay opciones que gestionar, la app te lo indica.</li>
+<li><strong>iOS:</strong> <strong>Ajustes del sistema &gt; Privacidad y seguridad &gt; Seguimiento</strong>, y desactiva Intemperie (si no tienes Premium, también hay un acceso directo en Ajustes &gt; Anuncios &gt; &quot;Seguimiento entre apps&quot;).</li>
 <li><strong>Android:</strong> en los ajustes del sistema, sección de <strong>anuncios de Google</strong> (la ruta exacta depende de la versión y del fabricante), elige <strong>restablecer</strong> o <strong>eliminar el ID de publicidad</strong>.</li>
 <li>También puedes <strong>desinstalar la app</strong>. Retirar el consentimiento no es retroactivo para lo que Google ya hubiera tratado con tu consentimiento anterior.</li>
 </ul>
 <h3>6.9. Transferencias internacionales y conservación</h3>
 <p>Google puede tratar datos en servidores situados fuera de tu país y fuera del Espacio Económico Europeo (sobre todo en EE. UU.), según su política. No tenemos control sobre esas transferencias. Los plazos de conservación los fija Google (según la política citada, depende del tipo de dato: algunos se borran o anonimizan pasado un tiempo y otros se conservan más por motivos legales o de seguridad). El responsable no conserva ningún dato de publicidad tuyo.</p>
 <h3>6.10. Guías desbloqueadas</h3>
-<p>Cuando ves un anuncio bonificado (o, si tu consentimiento impide mostrar anuncios, cuando abres una guía bloqueada), la app anota en tu móvil el identificador de la guía desbloqueada. Eso <strong>no se sube a ningún servidor</strong> y no se vincula a ninguna cuenta. Se borra con <strong>Ajustes &gt; Datos &gt; Borrar todo</strong> o al desinstalar la app, y no se recupera al instalarla en otro móvil ni tras reinstalarla, salvo que en iOS restaures el dispositivo desde una copia de iCloud o de un ordenador que incluya los datos de la app (sección 9).</p>
+<p>Cuando ves un anuncio bonificado (o, si tu consentimiento impide mostrar anuncios o el anuncio ha fallado dos veces seguidas, cuando abres o intentas desbloquear una guía bloqueada), la app anota en tu móvil el identificador de la guía desbloqueada. Eso <strong>no se sube a ningún servidor</strong> y no se vincula a ninguna cuenta. Se borra con <strong>Ajustes &gt; Datos &gt; Borrar todo</strong> o al desinstalar la app, y no se recupera al instalarla en otro móvil ni tras reinstalarla, salvo que en iOS restaures el dispositivo desde una copia de iCloud o de un ordenador que incluya los datos de la app (sección 10). <strong>Esto no afecta a la compra Premium</strong>, que sí se recupera con &quot;Restaurar compras&quot; (sección 7.5).</p>
 <h3>6.11. Anuncios inapropiados</h3>
-<p>Si ves un anuncio inapropiado u ofensivo, puedes usar <strong>Ajustes &gt; Anuncios &gt; &quot;Informar de un anuncio inapropiado&quot;</strong>, que abre tu aplicación de correo con un mensaje preparado dirigido a <strong><a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></strong>, o escribir directamente a esa dirección indicando captura, pantalla y fecha. También puedes usar el icono &quot;Por qué este anuncio&quot;/&quot;AdChoices&quot; del propio anuncio, si lo muestra. Revisamos y pedimos a Google que lo bloquee.</p>
-<h2>7. Lo que NO ocurre</h2>
+<p>Si ves un anuncio inapropiado u ofensivo, puedes usar <strong>Ajustes &gt; Anuncios &gt; &quot;Informar de un anuncio inapropiado&quot;</strong> (si no tienes Premium), que abre tu aplicación de correo con un mensaje preparado dirigido a <strong><a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></strong>, o escribir directamente a esa dirección indicando captura, pantalla y fecha. También puedes usar el icono &quot;Por qué este anuncio&quot;/&quot;AdChoices&quot; del propio anuncio, si lo muestra. Revisamos y pedimos a Google que lo bloquee.</p>
+<h2>7. Compras (Apple App Store y RevenueCat)</h2>
+<h3>7.1. Qué se puede comprar</h3>
+<p>La app ofrece <strong>una única compra opcional</strong>, &quot;<strong>Quitar anuncios y desbloquear todo</strong>&quot; (en adelante, &quot;Premium&quot;): un <strong>pago único, sin suscripción ni renovaciones</strong>. Con Premium no hay banners ni anuncios bonificados y todas las guías quedan desbloqueadas. <strong>No hace falta comprar nada</strong> para usar las guías siempre gratuitas, &quot;Lo esencial&quot; de cualquier guía, las herramientas, el mapa ni la pantalla de emergencias (sección 6.1). El precio lo muestra la propia tienda de Apple antes de que confirmes la compra.</p>
+<h3>7.2. Quién hace qué</h3>
+<ul>
+<li><strong>Apple</strong> cobra y gestiona el pago, tu Apple ID y los reembolsos. <strong>La app no ve ni guarda tus datos de pago</strong> (tarjeta, método de pago, nombre de facturación). Apple trata esos datos bajo su propia política: <a href="https://www.apple.com/legal/privacy/es/">https://www.apple.com/legal/privacy/es/</a>.</li>
+<li><strong>RevenueCat, Inc.</strong> (servicio de terceros, con servidores en EE. UU.) actúa como <strong>encargado del tratamiento (&quot;processor&quot;)</strong> del responsable: valida con Apple que la compra es real y la restaura cuando la pides. Según su política, RevenueCat no es responsable del tratamiento de estos datos de usuarios finales y actúa como encargado; en su DPA, el cliente (aquí, el responsable) es el responsable del tratamiento y RevenueCat su encargado. Su política de privacidad: <a href="https://www.revenuecat.com/privacy/">https://www.revenuecat.com/privacy/</a>. Su acuerdo de encargo del tratamiento (DPA), que establece los roles de responsable y encargado: <a href="https://www.revenuecat.com/dpa/">https://www.revenuecat.com/dpa/</a>.</li>
+<li><strong>El responsable</strong> (sección 1) decide usar RevenueCat para esta función. No recibe tus datos de pago ni puede ver quién eres a partir del identificador anónimo.</li>
+</ul>
+<h3>7.3. Qué datos se tratan, para qué y con qué base jurídica</h3>
+<table>
+<thead>
+<tr>
+<th>Dato</th>
+<th>Quién lo trata</th>
+<th>Para qué</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Identificador anónimo de la app</strong>, generado por RevenueCat (empieza por <code>$RCAnonymousID:</code>). <strong>No hay cuentas</strong>: no se pide ni se guarda tu nombre, correo ni teléfono</td>
+<td>RevenueCat</td>
+<td>Asociar la compra a tu instalación y poder comprobarla</td>
+</tr>
+<tr>
+<td><strong>Historial de compras y recibos de StoreKit</strong> (qué producto has comprado y cuándo)</td>
+<td>RevenueCat (los recibos los emite Apple)</td>
+<td>Validar la compra y evitar fraude; activar Premium</td>
+</tr>
+<tr>
+<td><strong>Dirección IP</strong> (la que ve cualquier servidor al recibir una conexión)</td>
+<td>RevenueCat</td>
+<td>Establecer la conexión y evitar abusos</td>
+</tr>
+<tr>
+<td><strong>Datos del dispositivo y de la app</strong>: versión de la app, sistema operativo y versión, modelo e idioma o región</td>
+<td>RevenueCat</td>
+<td>Validar la compra y mostrar el precio y la oferta correctos para tu tienda</td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>Finalidad:</strong> la <strong>funcionalidad</strong> de la app (validar, activar y restaurar la compra) y la <strong>analítica de compras</strong>: RevenueCat ofrece al responsable un panel con el historial de compras y estadísticas de ventas (sin identificar al usuario). En App Store Connect, el historial de compras se declara con ambas finalidades (funcionalidad de la app y analítica), como indica RevenueCat. No se usa con fines publicitarios.</li>
+<li><strong>Base jurídica:</strong> <strong>ejecución del contrato</strong> de compra que tú solicitas (art. 6.1.b RGPD): sin estos datos no se puede validar ni restaurar lo que has comprado. La prevención del fraude y la seguridad de la validación pueden apoyarse además en el interés legítimo del responsable (art. 6.1.f).</li>
+<li><strong>No hay seguimiento:</strong> estos datos <strong>no se usan para publicidad</strong> ni para seguirte entre apps y webs de otras empresas, ni se combinan con el identificador de publicidad de tu dispositivo. No dependen de que aceptes la petición de &quot;Seguimiento&quot; (ATT) ni el formulario de consentimiento de anuncios.</li>
+<li><strong>Cuándo se comunica la app con RevenueCat:</strong> <strong>cada vez que abres la app</strong> (y al volver a ella tras un tiempo) para comprobar si ya eres Premium, y además al mostrar el precio, comprar y restaurar. Por tanto, RevenueCat puede recibir el identificador anónimo y la IP <strong>aunque nunca llegues a comprar</strong>. Esta comunicación <strong>no depende</strong> del formulario de consentimiento de anuncios ni de la petición de &quot;Seguimiento&quot;. Sin conexión, la app usa el último estado de la compra que ya conocía.</li>
+<li><strong>Sin identificador de publicidad:</strong> la app configura el SDK de RevenueCat para que <strong>no recoja el identificador de publicidad (IDFA) ni otros identificadores del dispositivo con fines de atribución</strong>, y no usa redes de atribución.</li>
+</ul>
+<h3>7.4. Conservación</h3>
+<p>El responsable <strong>no guarda</strong> estos datos en ningún servidor propio. RevenueCat los conserva según su política y su DPA: en su política indica que, para los datos de usuarios finales, los conserva el tiempo necesario para cumplir obligaciones legales, resolver disputas y hacer cumplir sus acuerdos; y en el DPA, mientras dure su contrato con el responsable, tras lo cual destruye o devuelve los datos si el responsable lo solicita. El responsable puede pedir a RevenueCat el borrado de un registro. Apple conserva los datos de tus compras según su política. La compra en sí <strong>pertenece a tu Apple ID</strong>, no a la app.</p>
+<h3>7.5. Cómo restaurar la compra y qué pasa con &quot;Borrar todo&quot;</h3>
+<ul>
+<li><strong>Restaurar compras:</strong> si ya compraste Premium (por ejemplo, tras reinstalar la app, cambiar de móvil o usar &quot;Borrar todo&quot;), abre <strong>Ajustes &gt; Intemperie Premium &gt; &quot;Restaurar compras&quot;</strong> o el botón <strong>&quot;Restaurar compras&quot;</strong> de la pantalla Premium e inicia sesión, si te lo pide, con el <strong>mismo Apple ID</strong> con el que compraste. No hay cuenta de la app: la compra se asocia a tu Apple ID y se vuelve a activar. Hace falta conexión a Internet.</li>
+<li><strong>&quot;Borrar todo&quot; no borra la compra.</strong> Esa acción borra los datos que la app guarda en tu móvil (sección 3), no tu compra, porque esta pertenece a tu Apple ID. Tras &quot;Borrar todo&quot;, Premium sigue activo (la app no borra ese estado); si alguna vez no lo reconociera, se recupera con &quot;Restaurar compras&quot;. No necesitas volver a pagar.</li>
+<li><strong>Desinstalar y reinstalar:</strong> igual que lo anterior: restaura la compra con el mismo Apple ID.</li>
+</ul>
+<h3>7.6. Transferencias internacionales</h3>
+<p>RevenueCat almacena los datos en servidores de <strong>Amazon Web Services en EE. UU.</strong>, según su política de privacidad. Para las transferencias de datos personales desde el Espacio Económico Europeo a países sin decisión de adecuación, su DPA se basa en las <strong>Cláusulas Contractuales Tipo de la Comisión Europea</strong> (con adenda para el Reino Unido y modificaciones para Suiza) y enumera sus subencargados (todos ellos en EE. UU., entre otros AWS). Apple trata datos según su política. El responsable no transfiere datos por sí mismo.</p>
+<h3>7.7. Tus derechos sobre los datos de la compra</h3>
+<p>Como no hay cuentas, el responsable no puede relacionar el identificador anónimo contigo por sí solo. Si quieres acceder a estos datos o pedir su supresión, escribe a <strong><a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></strong>; para poder localizar tu registro en RevenueCat puede hacer falta el identificador anónimo de tu instalación o datos de tu compra (por ejemplo, el justificante de Apple). El responsable tramitará la solicitud con RevenueCat. Ten en cuenta que, si se borra tu registro en RevenueCat, <strong>la compra seguirá existiendo en tu Apple ID</strong> y se podrá volver a restaurar. Puedes reclamar ante la AEPD (sección 11).</p>
+<h3>7.8. Reembolsos</h3>
+<p>Los reembolsos los gestiona <strong>Apple</strong>, no el responsable ni la app. Se piden en <a href="https://reportaproblem.apple.com">https://reportaproblem.apple.com</a> (ver <a href="https://borjeta.github.io/appIntemperie/soporte.html">Soporte</a> y el <a href="https://borjeta.github.io/appIntemperie/aviso-legal.html">Aviso legal</a>).</p>
+<h2>8. Lo que NO ocurre</h2>
 <ul>
 <li>No hay cuentas, registro ni inicio de sesión.</li>
-<li>No hay analítica propia ni informes de errores enviados a un servidor del responsable. (El SDK de Google sí mide la interacción con los anuncios, sección 6.)</li>
+<li>No hay analítica propia ni informes de errores enviados a un servidor del responsable. (El SDK de Google sí mide la interacción con los anuncios, sección 6; y RevenueCat trata datos de la compra, sección 7.)</li>
 <li>No hay otras redes de anuncios ni mediación.</li>
-<li>No hay compras dentro de la app ni SDK de pagos.</li>
+<li>La app no ve ni guarda tus datos de pago: los trata Apple. Solo existe una compra única (Premium), sin suscripciones.</li>
 <li>La app no envía tu posición exacta a ningún servidor, ni tus puntos, rutas, contactos o notas médicas.</li>
 </ul>
-<h2>8. Base jurídica general, menores y decisiones automatizadas</h2>
-<h3>8.1. Base jurídica (orientativa)</h3>
+<h2>9. Base jurídica general, menores y decisiones automatizadas</h2>
+<h3>9.1. Base jurídica (orientativa)</h3>
 <p>El <strong>Reglamento (UE) 2016/679 (RGPD)</strong> y la normativa española aplicable solo regulan el tratamiento de datos personales. Con carácter orientativo:</p>
 <ul>
 <li><strong>Datos guardados solo en tu dispositivo:</strong> el responsable no los recibe ni accede a ellos, por lo que no los trata como responsable. Tú controlas esos datos y puedes borrarlos cuando quieras.</li>
 <li><strong>Comunicaciones con Overpass y OpenFreeMap:</strong> se producen porque <strong>tú las solicitas</strong> (al pulsar descargar o al abrir el mapa con conexión) para obtener la funcionalidad que has pedido (art. 6.1.b RGPD). Los servidores de esos terceros son responsables de sus propios registros (dirección IP, etc.) según sus políticas.</li>
 <li><strong>Publicidad (Google):</strong> ver sección 6.6.</li>
-<li><strong>Transferencias internacionales:</strong> el responsable <strong>no transfiere</strong> por sí mismo datos personales a terceros países, porque no los recibe. Google, Overpass y OpenFreeMap pueden tener servidores fuera del Espacio Económico Europeo; consulta sus políticas (secciones 5 y 6).</li>
+<li><strong>Compras (Apple y RevenueCat):</strong> ver sección 7.3. El tratamiento por RevenueCat se hace por cuenta del responsable, como encargado.</li>
+<li><strong>Transferencias internacionales:</strong> el responsable <strong>no transfiere</strong> por sí mismo datos personales a terceros países, porque no los recibe. Google, RevenueCat, Overpass y OpenFreeMap pueden tener servidores fuera del Espacio Económico Europeo; consulta sus políticas y la sección 7.6 (secciones 5, 6 y 7).</li>
 <li><strong>Decisiones automatizadas y elaboración de perfiles:</strong> el responsable no las realiza. Los anuncios personalizados los elabora Google si tú lo consientes.</li>
 </ul>
-<h3>8.2. Menores</h3>
-<p>La app <strong>no está dirigida a menores de 13 años</strong> y no la ofrecemos como app infantil. Tampoco debe usarla sin autorización de sus padres o tutores quien tenga menos de <strong>14 años</strong> (edad mínima para consentir el tratamiento de datos en España). La app no pide edad ni datos personales, no tiene cuentas y los anuncios no se dirigen a niños. Si crees que un menor ha dado su consentimiento sin autorización, escribe a <strong><a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></strong>. Los adultos deben supervisar el uso en actividades al aire libre. Los anuncios están sujetos a la clasificación por edad de la app.</p>
-<h2>9. Copias de seguridad del sistema</h2>
+<h3>9.2. Menores</h3>
+<p>La app <strong>no está dirigida a menores de 13 años</strong> y no la ofrecemos como app infantil. Tampoco debe usarla sin autorización de sus padres o tutores quien tenga menos de <strong>14 años</strong> (edad mínima para consentir el tratamiento de datos en España). La app no pide edad ni datos personales, no tiene cuentas y los anuncios no se dirigen a niños. Las compras las gestiona Apple con los controles que tengan configurados el Apple ID y el dispositivo (por ejemplo, &quot;Solicitar compra&quot; en Compartir en familia). Si crees que un menor ha dado su consentimiento sin autorización, escribe a <strong><a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></strong>. Los adultos deben supervisar el uso en actividades al aire libre. Los anuncios están sujetos a la clasificación por edad de la app.</p>
+<h2>10. Copias de seguridad del sistema</h2>
 <ul>
-<li><strong>Android:</strong> la app tiene desactivadas las copias de seguridad automáticas de Android (<code>allowBackup</code> desactivado), así que tus puntos, contactos de emergencia, notas médicas y guías desbloqueadas <strong>no se incluyen en las copias de Google</strong>. Consecuencia: al cambiar de móvil o reinstalar, empiezas de cero.</li>
-<li><strong>iOS:</strong> dependiendo de tu configuración, iCloud o las copias de un ordenador pueden incluir los datos locales de la app. Eso lo gestionan Apple y tú, no el responsable. Si no quieres que se incluyan, usa &quot;Borrar todo&quot; o revisa los ajustes de copia de tu dispositivo.</li>
+<li><strong>Android:</strong> la app tiene desactivadas las copias de seguridad automáticas de Android (<code>allowBackup</code> desactivado), así que tus puntos, contactos de emergencia, notas médicas y guías desbloqueadas <strong>no se incluyen en las copias de Google</strong>. Consecuencia: al cambiar de móvil o reinstalar, empiezas de cero (la compra Premium, en cambio, se restaura con la misma cuenta de la tienda: sección 7.5).</li>
+<li><strong>iOS:</strong> dependiendo de tu configuración, iCloud o las copias de un ordenador pueden incluir los datos locales de la app. Eso lo gestionan Apple y tú, no el responsable. Si no quieres que se incluyan, usa &quot;Borrar todo&quot; o revisa los ajustes de copia de tu dispositivo. La compra Premium <strong>no depende de estas copias</strong>: se recupera con &quot;Restaurar compras&quot; (sección 7.5).</li>
 </ul>
-<h2>10. Tus derechos y autoridad de control</h2>
-<p>Como el responsable no recibe tus datos, la forma más directa de ejercer tus derechos de acceso, rectificación, supresión y portabilidad es <strong>usar la propia app</strong> (todo está en tu dispositivo y puedes verlo, editarlo y borrarlo). Para los datos que traten Google, Overpass y OpenFreeMap, puedes dirigirte a ellos según sus políticas (la de Google en <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>). Si tienes dudas o quieres ejercer cualquier derecho respecto al responsable, escribe a <strong><a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></strong>.</p>
+<h2>11. Tus derechos y autoridad de control</h2>
+<p>Como el responsable no recibe tus datos, la forma más directa de ejercer tus derechos de acceso, rectificación, supresión y portabilidad es <strong>usar la propia app</strong> (todo está en tu dispositivo y puedes verlo, editarlo y borrarlo). Para los datos que traten Google, Overpass y OpenFreeMap, puedes dirigirte a ellos según sus políticas (la de Google en <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>). Para los datos de la compra tratados por <strong>RevenueCat como encargado del responsable</strong>, escribe al responsable (sección 7.7); los datos de pago y de tu Apple ID los gestiona Apple (<a href="https://www.apple.com/legal/privacy/es/">https://www.apple.com/legal/privacy/es/</a>). Si tienes dudas o quieres ejercer cualquier derecho respecto al responsable, escribe a <strong><a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></strong>.</p>
 <p>Si consideras que se han vulnerado tus derechos, puedes presentar una reclamación ante la <strong>Agencia Española de Protección de Datos (AEPD)</strong>: <a href="https://www.aepd.es">https://www.aepd.es</a>, o ante la autoridad de control de tu país de residencia.</p>
-<h2>11. Cambios en esta política</h2>
-<p>Si cambia el funcionamiento de la app de forma relevante para tu privacidad (por ejemplo, nuevos servicios de terceros o nuevas redes de anuncios), actualizaremos esta política y la fecha de &quot;Última actualización&quot;, y la avisaremos en la propia app cuando proceda. La versión vigente es siempre la publicada en <strong><a href="https://borjeta.github.io/appIntemperie/privacidad.html">https://borjeta.github.io/appIntemperie/privacidad.html</a></strong>.</p>
-<h2>12. Contacto</h2>
+<h2>12. Cambios en esta política</h2>
+<p>Si cambia el funcionamiento de la app de forma relevante para tu privacidad (por ejemplo, nuevos servicios de terceros, nuevas redes de anuncios o nuevos proveedores de pagos), actualizaremos esta política y la fecha de &quot;Última actualización&quot;, y la avisaremos en la propia app cuando proceda. La versión vigente es siempre la publicada en <strong><a href="https://borjeta.github.io/appIntemperie/privacidad.html">https://borjeta.github.io/appIntemperie/privacidad.html</a></strong>.</p>
+<h2>13. Contacto</h2>
 <p><strong>Borja Alventosa Julià</strong> — <strong><a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></strong> — <strong><a href="https://borjeta.github.io/appIntemperie/">https://borjeta.github.io/appIntemperie/</a></strong></p>
 <p>Documentos relacionados: <a href="https://borjeta.github.io/appIntemperie/soporte.html">Soporte</a> · <a href="https://borjeta.github.io/appIntemperie/aviso-legal.html">Aviso legal</a></p>
 
