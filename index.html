@@ -1,13 +1,213 @@
 <!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Intemperie</title><meta name="description" content="Intemperie: app de supervivencia offline"><style>:root{--bg:#fff;--fg:#1c1c1e;--soft:#555a64;--link:#0a67c9;--line:#d9dce1}
+<title>Campo Base: kit de supervivencia offline para iPhone</title><meta name="description" content="App de supervivencia sin conexión: 31 guías (fuego, agua, refugio, primeros auxilios), brújula, linterna SOS y mapas descargables. Gratis con anuncios."><link rel="canonical" href="https://borjeta.github.io/campo-base/"><meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#14161a" media="(prefers-color-scheme: dark)"><meta name="apple-itunes-app" content="app-id=6835817355"><link rel="icon" type="image/png" href="icon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta property="og:type" content="website"><meta property="og:site_name" content="Campo Base"><meta property="og:locale" content="es_ES"><meta property="og:title" content="Campo Base: kit de supervivencia offline para iPhone"><meta property="og:description" content="App de supervivencia sin conexión: 31 guías (fuego, agua, refugio, primeros auxilios), brújula, linterna SOS y mapas descargables. Gratis con anuncios."><meta property="og:url" content="https://borjeta.github.io/campo-base/"><meta property="og:image" content="https://borjeta.github.io/campo-base/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Campo Base: kit de supervivencia offline. Guías, brújula, linterna SOS y mapas descargables."><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Campo Base: kit de supervivencia offline para iPhone"><meta name="twitter:description" content="App de supervivencia sin conexión: 31 guías (fuego, agua, refugio, primeros auxilios), brújula, linterna SOS y mapas descargables. Gratis con anuncios."><meta name="twitter:image" content="https://borjeta.github.io/campo-base/og-image.png"><meta name="twitter:image:alt" content="Campo Base: kit de supervivencia offline. Guías, brújula, linterna SOS y mapas descargables."><style>:root{--bg:#fff;--fg:#1c1c1e;--soft:#555a64;--link:#0a67c9;--line:#d9dce1}
 @media (prefers-color-scheme:dark){:root{--bg:#14161a;--fg:#f2f4f7;--soft:#aab1bd;--link:#6ea8ff;--line:#3a3f48}}
 body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:44rem;margin:2.5rem auto;padding:0 1rem;line-height:1.6}
 a{color:var(--link)}h1,h2,h3{line-height:1.25}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}td,th{border:1px solid var(--line);padding:.4rem .6rem;text-align:left;vertical-align:top}
-nav{font-size:.95rem;color:var(--soft);margin-bottom:1.5rem}footer{margin-top:3rem;color:var(--soft);font-size:.9rem}</style></head>
-<body><nav><a href="./">Intemperie</a> · <a href="privacidad.html">Privacidad</a> · <a href="soporte.html">Soporte</a> · <a href="aviso-legal.html">Aviso legal</a></nav>
-<h1>Intemperie</h1>
-<p>App de supervivencia que funciona sin conexión: guías de fuego, agua, refugio, primeros auxilios, orientación y señales, más herramientas (brújula, linterna con SOS, puntos y rutas) y mapas descargables con recursos cercanos.</p>
-<ul><li><a href="privacidad.html">Política de privacidad</a></li><li><a href="soporte.html">Soporte</a></li><li><a href="aviso-legal.html">Aviso legal</a></li></ul>
+nav{font-size:.95rem;color:var(--soft);margin-bottom:1.5rem}footer{margin-top:3rem;color:var(--soft);font-size:.9rem}
+.hero{display:flex;gap:1rem;align-items:center;margin-bottom:.5rem}.hero h1{margin:0}img.icon{width:96px;height:96px;border-radius:22%;flex:none}.note{border:1px solid var(--line);border-radius:.5rem;padding:.6rem .9rem}</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://borjeta.github.io/campo-base/#website",
+   "url": "https://borjeta.github.io/campo-base/",
+   "name": "Campo Base",
+   "inLanguage": "es-ES",
+   "publisher": {
+    "@id": "https://borjeta.github.io/campo-base/#autor"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://borjeta.github.io/campo-base/#autor",
+   "name": "Borja Alventosa Julià",
+   "url": "https://borjeta.github.io/campo-base/"
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://borjeta.github.io/campo-base/#pagina",
+   "url": "https://borjeta.github.io/campo-base/",
+   "name": "Campo Base: kit de supervivencia offline para iPhone",
+   "description": "App de supervivencia sin conexión: 31 guías (fuego, agua, refugio, primeros auxilios), brújula, linterna SOS y mapas descargables. Gratis con anuncios.",
+   "inLanguage": "es-ES",
+   "isPartOf": {
+    "@id": "https://borjeta.github.io/campo-base/#website"
+   },
+   "about": {
+    "@id": "https://borjeta.github.io/campo-base/#app"
+   },
+   "primaryImageOfPage": "https://borjeta.github.io/campo-base/og-image.png",
+   "dateModified": "2026-11-18"
+  },
+  {
+   "@type": "MobileApplication",
+   "@id": "https://borjeta.github.io/campo-base/#app",
+   "name": "Campo Base: Kit Supervivencia",
+   "alternateName": "Campo Base",
+   "description": "Campo Base es una app de supervivencia para iPhone que funciona sin conexión: 31 guías en español de España (fuego, agua, refugio, primeros auxilios, orientación y más), brújula, linterna con señal SOS y mapas descargables para consultarlos sin cobertura.",
+   "url": "https://borjeta.github.io/campo-base/",
+   "image": "https://borjeta.github.io/campo-base/icon.png",
+   "applicationCategory": "ReferenceApplication",
+   "operatingSystem": "iOS",
+   "inLanguage": "es-ES",
+   "featureList": [
+    "31 guías de supervivencia que se leen sin conexión",
+    "Brújula con coordenadas, altitud y barómetro",
+    "Linterna con señal SOS en luz y sonido",
+    "Mapas y recursos cercanos descargables",
+    "Buscador de guías, herramientas y ajustes",
+    "Modo luz roja para conservar la visión nocturna"
+   ],
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "description": "Descarga gratuita con anuncios de Google AdMob. 12 guías esenciales siempre gratuitas; las demás se desbloquean con un anuncio opcional por guía o con una compra única opcional, «Quitar anuncios y desbloquear todo», sin suscripción. El precio de la compra lo muestra la App Store."
+   },
+   "author": {
+    "@id": "https://borjeta.github.io/campo-base/#autor"
+   },
+   "publisher": {
+    "@id": "https://borjeta.github.io/campo-base/#autor"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://borjeta.github.io/campo-base/#faq",
+   "inLanguage": "es-ES",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "¿Qué es Campo Base y para qué sirve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Campo Base es una app de supervivencia para iPhone que funciona sin conexión. Reúne 31 guías en español de España (fuego, agua, refugio, primeros auxilios, orientación, señales de rescate, clima, montaña, apagones y más), herramientas como brújula, linterna con señal SOS, puntos y rutas, sol y luna, y mapas descargables, para consultarlo todo cuando no hay cobertura."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Funciona sin conexión a Internet?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sí. Las guías (las siempre gratuitas y las demás, una vez desbloqueadas), las herramientas, tus puntos y rutas y los contactos de emergencia funcionan sin red. El mapa y los recursos cercanos funcionan sin red con los datos que hayas descargado antes. La brújula y el GPS usan los sensores del móvil, no Internet. Hace falta conexión para descargar mapas y datos, para ver el anuncio que desbloquea una guía y para comprar o restaurar Premium."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Campo Base es gratis? ¿Tiene anuncios?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Es gratis de descargar y contiene anuncios de Google AdMob: banners en Inicio, en la lista de Guías y en Ajustes, y un vídeo opcional para desbloquear cada guía. Nunca hay anuncios en Herramientas, en el Mapa ni mientras lees una guía. 12 guías esenciales y la pantalla de Emergencias (112) son siempre gratuitas. Las otras 19 se desbloquean viendo un anuncio por guía o con una compra única opcional, «Quitar anuncios y desbloquear todo», que no es una suscripción. El precio lo muestra la App Store antes de comprar."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Sustituye a llamar al 112 o a un curso de primeros auxilios?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. En una emergencia, llama al 112. Campo Base es una ayuda orientativa y general: no sustituye a los servicios de emergencia, a un profesional sanitario ni a la formación en primeros auxilios, montaña o supervivencia. Ninguna aplicación puede garantizar el resultado en una emergencia."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Cómo descargo el mapa y qué datos usa?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "En la pestaña Mapa, con conexión: «Descargar datos de la zona» guarda en tu móvil recursos de OpenStreetMap (agua, refugios, poblaciones, centros de salud, espacios protegidos…) en un radio de 15 km, y «Descargar mapa de esta zona» guarda el mapa de una zona de 15 o 30 km. Al descargar, a Overpass (OpenStreetMap) solo llega el centro de la zona redondeado a una rejilla de unos 5 km, y OpenFreeMap sirve las teselas de la zona; ambos ven tu dirección IP. La app no envía tu posición GPS exacta ni tus puntos, rutas o contactos. Más detalle en la política de privacidad."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Cómo restauro mi compra Premium?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Abre Ajustes > Campo Base Premium > «Restaurar compras», o el botón «Restaurar compras» de la pantalla de compra, con el mismo Apple ID con el que compraste y con conexión a Internet. No se te cobra de nuevo. «Borrar todo» no borra la compra, que pertenece a tu Apple ID. Los reembolsos los gestiona Apple. Más preguntas en Soporte."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Hay versión para Android?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Por ahora Campo Base se prepara para iPhone (iOS). Una versión para Android está prevista más adelante, sin fecha confirmada."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Qué es el kit de emergencia de 72 horas y qué debería llevar?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Es la reserva que te permite valerte por ti mismo al menos tres días en un apagón, una inundación u otra crisis. La guía «Kit de emergencia de 72 horas» (siempre gratuita) explica qué guardar en la mochila, en casa y en el coche: agua (como mínimo 1,5 litros para beber por persona y día), comida que no necesite cocinarse, medicación y botiquín, linterna, radio a pilas, batería externa, efectivo y documentos. Es una orientación general; adáptala a tu zona y a quién vive contigo."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Qué hago si me pierdo en el monte?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Es un resumen orientativo; la guía «Qué hacer si…» (siempre gratuita y disponible sin conexión) lo detalla. Para, respira y bebe un poco de agua; piensa por dónde has venido y observa tu entorno (regla STOP: Para, Piensa, Observa, Planifica). Llama al 112 en cuanto notes que estás desorientado, sin esperar a estar agotado. Si no estás seguro de la dirección, no sigas caminando sin rumbo. Hazte ver y oír con un silbato o la linterna, abrígate y busca refugio antes de que anochezca."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Qué permisos pide la app y qué datos recoge?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No hay cuentas ni registro. Pide la ubicación solo mientras la app está abierta (nunca en segundo plano), la cámara solo para encender el flash como linterna y la señal SOS luminosa, y los sensores de movimiento para la brújula y el barómetro. Tus puntos, rutas, contactos de emergencia y ajustes se guardan solo en tu dispositivo. Para funcionar, la app se comunica con Google AdMob (anuncios, con tu consentimiento donde se exija), RevenueCat (validar la compra, con un identificador anónimo), Overpass y OpenFreeMap (mapas). Todo el detalle está en la política de privacidad."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script></head>
+<body><nav aria-label="Principal"><a href="./" aria-current="page">Campo Base</a> · <a href="privacidad.html">Privacidad</a> · <a href="soporte.html">Soporte</a> · <a href="aviso-legal.html">Aviso legal</a></nav>
+<main>
+<div class="hero"><img class="icon" src="icon.png" width="96" height="96" alt="Icono de Campo Base: una llama naranja sobre fondo oscuro"><h1>Campo Base: Kit Supervivencia</h1></div>
+<p><strong>Campo Base es una app de supervivencia para iPhone que funciona sin conexión</strong>: 31 guías en español de España (fuego, agua, refugio, primeros auxilios, orientación y más), brújula, linterna con señal SOS y mapas descargables para consultarlos sin cobertura, en una salida a la montaña, un viaje, un apagón o una emergencia en casa.</p>
+<p class="note"><strong>En una emergencia, llama al 112.</strong> Campo Base es una ayuda orientativa y no sustituye a los servicios de emergencia, a un profesional sanitario ni a la formación en primeros auxilios, montaña o supervivencia.</p>
+<p>Disponible próximamente en la App Store. Sin cuentas ni registro.</p>
+<h2>Qué incluye</h2>
+<ul>
+<li><strong>31 guías sin conexión</strong>, con lo esencial primero y pasos claros: fuego, agua y refugio; primeros auxilios básicos y en el medio natural; orientación, señales y rescate; clima y peligros naturales, frío y nieve, calor extremo, montaña, mar y costa; «Qué hacer si…» (perderse, apagón, evacuación, accidente de tráfico, caída al agua fría y más); kit de emergencia de 72 horas y preparación del hogar; energía, comunicaciones y radio sin red; electricidad; comida y conservación; pesca, caza y trampas con los avisos legales; animales y plantas peligrosos; nudos, herramientas, pies y ropa.</li>
+<li><strong>Herramientas</strong>: brújula con coordenadas GPS, altitud y barómetro (si tu móvil lo incluye); linterna con señal SOS en luz y sonido, luz roja y silbato; puntos propios con «Ir al punto»; grabación de ruta; sol y luna; teléfonos de emergencia; calculadoras de agua, comida, batería y electricidad.</li>
+<li><strong>Mapas descargables</strong>: descarga mapas por zonas de 15 o 30 km y consúltalos sin cobertura. Con conexión, descarga también los recursos de OpenStreetMap en un radio de 15 km (agua, pesca, bosque, refugios, poblaciones, salud y espacios protegidos). Datos de mapa © colaboradores de OpenStreetMap (ODbL).</li>
+<li><strong>Buscador</strong> de guías, herramientas y ajustes.</li>
+<li><strong>Modo luz roja</strong>: todo en rojo sobre negro para conservar la visión nocturna.</li>
+<li><strong>Sin cuentas</strong>: tus puntos, rutas, contactos de emergencia y ajustes se guardan solo en tu dispositivo.</li>
+</ul>
+<h2>Gratis, con anuncios y una compra única opcional</h2>
+<ul>
+<li>La app es gratuita y contiene anuncios de Google AdMob: banners en Inicio, en la lista de Guías y en Ajustes, y un vídeo opcional para desbloquear cada guía. No hay anuncios en Herramientas, en el Mapa ni mientras lees una guía.</li>
+<li><strong>12 guías esenciales siempre gratuitas</strong> y sin anuncios (primeros auxilios básicos y en el medio natural, señales y rescate, qué hacer si…, agua, fuego, refugio, kit de emergencia de 72 horas, clima y peligros naturales, plantas y setas peligrosas, mar y costa, y electricidad básica y seguridad), además de la pantalla de Emergencias y el botón «Llamar al 112».</li>
+<li>Las otras 19 guías se desbloquean viendo un anuncio por guía o con una <strong>compra única opcional</strong>, «Quitar anuncios y desbloquear todo»: pago único, sin suscripción. El precio lo muestra la App Store antes de comprar.</li>
+</ul>
+<h2>Preguntas frecuentes</h2>
+<h3>¿Qué es Campo Base y para qué sirve?</h3>
+<p>Campo Base es una app de supervivencia para iPhone que funciona sin conexión. Reúne 31 guías en español de España (fuego, agua, refugio, primeros auxilios, orientación, señales de rescate, clima, montaña, apagones y más), herramientas como brújula, linterna con señal SOS, puntos y rutas, sol y luna, y mapas descargables, para consultarlo todo cuando no hay cobertura.</p>
+<h3>¿Funciona sin conexión a Internet?</h3>
+<p>Sí. Las guías (las siempre gratuitas y las demás, una vez desbloqueadas), las herramientas, tus puntos y rutas y los contactos de emergencia funcionan sin red. El mapa y los recursos cercanos funcionan sin red con los datos que hayas descargado antes. La brújula y el GPS usan los sensores del móvil, no Internet. Hace falta conexión para descargar mapas y datos, para ver el anuncio que desbloquea una guía y para comprar o restaurar Premium.</p>
+<h3>¿Campo Base es gratis? ¿Tiene anuncios?</h3>
+<p>Es gratis de descargar y contiene anuncios de Google AdMob: banners en Inicio, en la lista de Guías y en Ajustes, y un vídeo opcional para desbloquear cada guía. Nunca hay anuncios en Herramientas, en el Mapa ni mientras lees una guía. 12 guías esenciales y la pantalla de Emergencias (112) son siempre gratuitas. Las otras 19 se desbloquean viendo un anuncio por guía o con una compra única opcional, «Quitar anuncios y desbloquear todo», que no es una suscripción. El precio lo muestra la App Store antes de comprar.</p>
+<h3>¿Sustituye a llamar al 112 o a un curso de primeros auxilios?</h3>
+<p>No. En una emergencia, llama al 112. Campo Base es una ayuda orientativa y general: no sustituye a los servicios de emergencia, a un profesional sanitario ni a la formación en primeros auxilios, montaña o supervivencia. Ninguna aplicación puede garantizar el resultado en una emergencia.</p>
+<h3>¿Cómo descargo el mapa y qué datos usa?</h3>
+<p>En la pestaña Mapa, con conexión: «Descargar datos de la zona» guarda en tu móvil recursos de OpenStreetMap (agua, refugios, poblaciones, centros de salud, espacios protegidos…) en un radio de 15 km, y «Descargar mapa de esta zona» guarda el mapa de una zona de 15 o 30 km. Al descargar, a Overpass (OpenStreetMap) solo llega el centro de la zona redondeado a una rejilla de unos 5 km, y OpenFreeMap sirve las teselas de la zona; ambos ven tu dirección IP. La app no envía tu posición GPS exacta ni tus puntos, rutas o contactos. Más detalle en la <a href="privacidad.html">política de privacidad</a>.</p>
+<h3>¿Cómo restauro mi compra Premium?</h3>
+<p>Abre Ajustes &gt; Campo Base Premium &gt; «Restaurar compras», o el botón «Restaurar compras» de la pantalla de compra, con el mismo Apple ID con el que compraste y con conexión a Internet. No se te cobra de nuevo. «Borrar todo» no borra la compra, que pertenece a tu Apple ID. Los reembolsos los gestiona Apple. Más preguntas en <a href="soporte.html">Soporte</a>.</p>
+<h3>¿Hay versión para Android?</h3>
+<p>Por ahora Campo Base se prepara para iPhone (iOS). Una versión para Android está prevista más adelante, sin fecha confirmada.</p>
+<h3>¿Qué es el kit de emergencia de 72 horas y qué debería llevar?</h3>
+<p>Es la reserva que te permite valerte por ti mismo al menos tres días en un apagón, una inundación u otra crisis. La guía «Kit de emergencia de 72 horas» (siempre gratuita) explica qué guardar en la mochila, en casa y en el coche: agua (como mínimo 1,5 litros para beber por persona y día), comida que no necesite cocinarse, medicación y botiquín, linterna, radio a pilas, batería externa, efectivo y documentos. Es una orientación general; adáptala a tu zona y a quién vive contigo.</p>
+<h3>¿Qué hago si me pierdo en el monte?</h3>
+<p>Es un resumen orientativo; la guía «Qué hacer si…» (siempre gratuita y disponible sin conexión) lo detalla. Para, respira y bebe un poco de agua; piensa por dónde has venido y observa tu entorno (regla STOP: Para, Piensa, Observa, Planifica). Llama al 112 en cuanto notes que estás desorientado, sin esperar a estar agotado. Si no estás seguro de la dirección, no sigas caminando sin rumbo. Hazte ver y oír con un silbato o la linterna, abrígate y busca refugio antes de que anochezca.</p>
+<h3>¿Qué permisos pide la app y qué datos recoge?</h3>
+<p>No hay cuentas ni registro. Pide la ubicación solo mientras la app está abierta (nunca en segundo plano), la cámara solo para encender el flash como linterna y la señal SOS luminosa, y los sensores de movimiento para la brújula y el barómetro. Tus puntos, rutas, contactos de emergencia y ajustes se guardan solo en tu dispositivo. Para funcionar, la app se comunica con Google AdMob (anuncios, con tu consentimiento donde se exija), RevenueCat (validar la compra, con un identificador anónimo), Overpass y OpenFreeMap (mapas). Todo el detalle está en la <a href="privacidad.html">política de privacidad</a>.</p>
+<h2>Más información</h2>
+<ul><li><a href="soporte.html">Soporte y preguntas frecuentes</a></li><li><a href="privacidad.html">Política de privacidad</a></li><li><a href="aviso-legal.html">Aviso legal y condiciones de compra</a></li><li><a href="llms.txt">Resumen para asistentes de IA (llms.txt)</a></li></ul>
 <p><small>Las guías son orientativas y no sustituyen a los servicios de emergencia (112).</small></p>
-<footer>Intemperie · Contacto: <a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></footer></body></html>
+</main>
+<footer>Campo Base · Contacto: <a href="mailto:borjawebspubli@gmail.com">borjawebspubli@gmail.com</a></footer></body></html>

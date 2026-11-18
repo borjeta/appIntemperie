@@ -1,0 +1,20 @@
+# Campo Base: Kit Supervivencia
+
+> Campo Base es una app de supervivencia para iPhone que funciona sin conexión: 31 guías en español de España (fuego, agua, refugio, primeros auxilios, orientación, clima, montaña, apagones y más), brújula, linterna con señal SOS, puntos y rutas, sol y luna, calculadoras y mapas descargables para consultarlos sin cobertura. Es gratuita con anuncios de Google AdMob y tiene una compra única opcional ("Quitar anuncios y desbloquear todo", sin suscripción). Editada por Borja Alventosa Julià. Estado: pendiente de publicación en la App Store.
+
+Datos clave:
+- Plataforma: iOS (iPhone). Idioma: español (España). Sin cuentas ni registro.
+- Modelo: gratis con anuncios; 12 guías esenciales siempre gratuitas y sin anuncios; las otras 19 se desbloquean con un anuncio opcional por guía o con la compra única.
+- Datos: puntos, rutas, contactos de emergencia y ajustes se guardan solo en el dispositivo. Servicios de terceros: Google AdMob (anuncios), RevenueCat (validar la compra, identificador anónimo), Overpass/OpenStreetMap y OpenFreeMap (mapas).
+- No sustituye al 112 ni a un profesional sanitario o de rescate; el contenido es orientativo.
+
+## Páginas
+
+- [Inicio y preguntas frecuentes](https://borjeta.github.io/campo-base/): qué es la app, qué incluye, modelo gratuito con anuncios y 10 preguntas y respuestas.
+- [Soporte y preguntas frecuentes](https://borjeta.github.io/campo-base/soporte.html): anuncios y guías bloqueadas, compra única, restaurar compras, reembolsos, permisos, borrar datos, cómo reportar errores.
+- [Política de privacidad](https://borjeta.github.io/campo-base/privacidad.html): datos que se guardan en el dispositivo y datos que reciben Google AdMob, RevenueCat, Overpass y OpenFreeMap.
+- [Aviso legal y condiciones de compra](https://borjeta.github.io/campo-base/aviso-legal.html): titular, condiciones de uso, publicidad, compra única, reembolsos y desistimiento.
+
+## Optional
+
+- [Mapa del sitio](https://borjeta.github.io/campo-base/sitemap.xml)
